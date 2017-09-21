@@ -20,7 +20,7 @@ an empty array stored in a variable. The function should also contain a for
 function theBeatlesPlay(musicians,instruments){
   var derp = Array()
 
-  for (let i = 0; musicians.length-1;i++){
+  for (let i = 0; i == musicians.length-1;i++){
 
     if(i == 0){
       var msg = ""
