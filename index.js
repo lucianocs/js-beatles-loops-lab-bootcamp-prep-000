@@ -25,7 +25,7 @@ function theBeatlesPlay(musicians,instruments){
     if(i == 0){
       var msg = ""
     }
-    console.log(msg);
+    console.log('->'+msg);
     msg = musicians[i] + ' plays '+instruments[i]
     console.log(msg);
     derp.push(msg)
