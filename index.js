@@ -18,15 +18,16 @@ an empty array stored in a variable. The function should also contain a for
 
 
 function theBeatlesPlay(musicians,instruments){
-  var derp = Array(message)
+  var derp = Array()
 
-for (let i = 0; musicians.length-1;i++){
-  if(i == 0){
-    var msg = ""
+  for (let i = 0; musicians.length-1;i++){
+
+    if(i == 0){
+      var msg = ""
+    }
+
+    msg = musicians[i] + " plays "+instruments[i]
+    derp.push(msg)
   }
-
-  msg = musicians[i] + " plays "+instruments[i]
-  derp.push(msg)
-}
   return derp
 }
