@@ -21,12 +21,12 @@ function theBeatlesPlay(musicians,instruments){
   var derp = Array(message)
 
 for (let i = 0; musicians.length-1;i++){
-  if i == 0{
+  if(i == 0){
     var msg = ""
   }
 
-  msg = musicians[i] + " plays "+instruments[i]  
+  msg = musicians[i] + " plays "+instruments[i]
   derp.push(msg)
 }
-  return derp  
+  return derp
 }
