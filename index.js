@@ -21,7 +21,8 @@ function theBeatlesPlay(musicians,instruments){
   var derp = new Array()
 
   for (let i = 0; i == musicians.length-1;i++){
-    var myString = new String('John Lennon plays guitar'); 
+    var msg = new String('John Lennon plays guitar');
+
     /*if(i == 0){
 
     }else {
