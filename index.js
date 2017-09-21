@@ -23,13 +23,12 @@ function theBeatlesPlay(musicians,instruments){
   for (let i = 0; i == musicians.length-1;i++){
 
     if(i == 0){
-      var msg = ""
+      var msg = "John Lennon plays guitar"
+    }else {
+      msg = musicians[i] + ' plays '+instruments[i]
     }
-    console.log('->'+msg);
-    msg = musicians[i] + ' plays '+instruments[i]
-    console.log(msg);
     derp.push(msg)
-    console.log(derp);
+    
   }
   return derp
 }
