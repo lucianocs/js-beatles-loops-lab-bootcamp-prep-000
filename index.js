@@ -18,7 +18,7 @@ an empty array stored in a variable. The function should also contain a for
 
 
 function theBeatlesPlay(musicians,instruments){
-  var derp = Array()
+  var derp = new Array()
 
   for (let i = 0; i == musicians.length-1;i++){
 
