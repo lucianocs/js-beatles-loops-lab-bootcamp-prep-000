@@ -18,10 +18,10 @@ an empty array stored in a variable. The function should also contain a for
 
 
 function theBeatlesPlay(musicians,instruments){
-  var derp = new Array()
+var derp = ['John Lennon plays guitar'];
 
   for (let i = 0; i == musicians.length-1;i++){
-    var msg = new String('John Lennon plays guitar');
+    var msg = new String('');
 
     /*if(i == 0){
 
