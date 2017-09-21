@@ -29,6 +29,7 @@ function theBeatlesPlay(musicians,instruments){
     msg = musicians[i] + ' plays '+instruments[i]
     console.log(msg);
     derp.push(msg)
+    console.log(derp);
   }
   return derp
 }
