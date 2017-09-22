@@ -38,7 +38,7 @@ function iLoveTheBeatles(number){
 
   do {
     if (foo.length == 1){
-      foo['I love the Beatles!']
+      foo[0] = 'I love the Beatles!'
     }else {
       foo.push('I love the Beatles!')
     }
