@@ -26,7 +26,7 @@ var i
       derp[i] = musicians[i] + ' plays '+instruments[i]
     }else{
       derp.push(musicians[i] + ' plays '+instruments[i])
-  }
+    }
   }
   return derp
 }
