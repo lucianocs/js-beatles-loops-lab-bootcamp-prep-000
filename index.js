@@ -31,7 +31,7 @@ function johnLennonFacts(facts){
 var exclamation = ['']
 var i = 0
   while (i < facts.length) {
-    exclamation = facts[i] + '!!!'
+    exclamation[i] = facts[i] + '!!!'
     i++
   }
   return exclamation
