@@ -34,7 +34,7 @@ var i = 0
 
 */
 function iLoveTheBeatles(number){
-  var foo
+  var foo = new array
 
   do {
     number += 1;
