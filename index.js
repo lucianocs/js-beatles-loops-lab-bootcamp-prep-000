@@ -21,11 +21,7 @@ function theBeatlesPlay(musicians,instruments){
 var derp = [''];
 var i
   for ( i = 0 ; i < musicians.length ; i++ ) {
-
-    
-    var msg = musicians[i] + ' plays '+instruments[i]
-    derp.push(msg)
-
+    derp.push(musicians[i] + ' plays '+instruments[i])
   }
   return derp
 }
