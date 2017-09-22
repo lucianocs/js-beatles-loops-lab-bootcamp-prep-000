@@ -31,20 +31,21 @@ var i = 0
   The condition of the loop should check to see that the parameter number is less than `15`.
   The function should return the array with the strings `"I love the Beatles!"`.
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-beatles-loops-lab' title='Beatles Loops'>Beatles Loops</a> on Learn.co and start learning to code for free.</p>
-
+7 1
+8 
 */
 function iLoveTheBeatles(number){
   var foo = ['']
 
   do {
+    
     if (foo.length == 1){
-      foo[0] = 'I love the Beatles!'
+      foo[0] = 'I love the Beatles!'             
+      number++  
     }else {
       foo.push('I love the Beatles!')
     }
-
-
-    number += 1;
+  number++  
   } while (number < 15);
 
   return foo
