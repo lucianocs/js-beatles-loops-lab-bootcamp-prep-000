@@ -32,6 +32,7 @@ var exclamation = ['']
 var i = 0
   while (i < facts.length) {
     exclamation = facts[i] + '!!!'
+    i++
   }
   return exclamation
 }
