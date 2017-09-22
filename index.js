@@ -34,17 +34,17 @@ var i = 0
 
 */
 function iLoveTheBeatles(number){
-  var foo = new array
+  var foo = ['']
 
   do {
     if (foo.length == 0){
-      foo['I love the Beatles!']  
+      foo['I love the Beatles!']
     }else {
-      foo.push('I love the Beatles!')  
+      foo.push('I love the Beatles!')
     }
-    
-    
-    number += 1;    
+
+
+    number += 1;
   } while (number < 15);
 
   return foo
