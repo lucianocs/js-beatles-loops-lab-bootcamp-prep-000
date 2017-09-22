@@ -37,8 +37,14 @@ function iLoveTheBeatles(number){
   var foo = new array
 
   do {
-    number += 1;
-    foo.push('I love the Beatles!')
+    if (foo.length == 0){
+      foo['I love the Beatles!']  
+    }else {
+      foo.push('I love the Beatles!')  
+    }
+    
+    
+    number += 1;    
   } while (number < 15);
 
   return foo
