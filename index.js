@@ -44,7 +44,7 @@ function iLoveTheBeatles(number){
    }else {
       foo.push('I love the Beatles!')
     }
-  
+
   } while (number < 15);
 
   return foo
