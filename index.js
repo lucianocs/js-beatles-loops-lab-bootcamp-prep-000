@@ -38,14 +38,13 @@ function iLoveTheBeatles(number){
   var foo = ['']
 
   do {
-    
-    if (foo.length == 1){
-      foo[0] = 'I love the Beatles!'             
-      number++  
-    }else {
+
+    if (foo.[0] == ''){
+      foo[0] = 'I love the Beatles!'
+   }else {
       foo.push('I love the Beatles!')
     }
-  number++  
+  number++
   } while (number < 15);
 
   return foo
