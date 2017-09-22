@@ -23,9 +23,9 @@ var i
   for ( i = 0 ; i < musicians.length ; i++ ) {
     var msg = new String('');
 
-    
-    
-    
+
+
+
     msg = musicians[i] + ' plays '+instruments[i]
     derp.push(msg)
 
