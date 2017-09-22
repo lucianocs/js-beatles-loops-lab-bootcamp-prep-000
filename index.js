@@ -26,8 +26,9 @@ var i
     /*if(i == 0){
 
     }else {
-      msg = musicians[i] + ' plays '+instruments[i]
+      
     }*/
+    msg = musicians[i] + ' plays '+instruments[i]
     derp.push(msg)
 
   }
