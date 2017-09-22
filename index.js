@@ -22,11 +22,8 @@ var derp = [''];
 var i
   for ( i = 0 ; i < musicians.length ; i++ ) {
 
-    if (i == 0){
-      var msg
-    }
-
-    msg = musicians[i] + ' plays '+instruments[i]
+    
+    var msg = musicians[i] + ' plays '+instruments[i]
     derp.push(msg)
 
   }
