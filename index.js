@@ -29,7 +29,7 @@ Use a while loop to loop over the facts array and add `"!!!"` to the end of ever
 
 function johnLennonFacts(facts){
 var exclamation = ['']
-var i
+var i = 0
   while (i < facts.length) {
     exclamation = facts[i] + '!!!'
   }
