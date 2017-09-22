@@ -18,13 +18,11 @@ an empty array stored in a variable. The function should also contain a for
 
 
 function theBeatlesPlay(musicians,instruments){
-var derp = ['John Lennon plays guitar'];
+var derp = [''];
 var i
   for ( i = 0 ; i < musicians.length ; i++ ) {
-    var msg = new String('');
 
-
-
+    if (i == 0) var msg
 
     msg = musicians[i] + ' plays '+instruments[i]
     derp.push(msg)
